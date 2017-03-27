@@ -184,7 +184,7 @@
           },
           "title": "Make an impression",
           "text": "<p>We offer a wide variety of print media to fit your needs.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Put your ideas into print</a>"
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"index.html#form1-5\" data-toolbar=\"-mbrBtnMove\">Put your ideas into print</a>"
         },
         {
           "_styles": {
@@ -340,7 +340,7 @@
             "showSubTitle": true
           },
           "title": "CONTACT FORM",
-          "subtitle": "Shape your future web project with sharp design and refine coded functions.",
+          "subtitle": "Got a question? Need a quote? We can help!",
           "form": {
             "action": "cheerstodesign@gmail.com",
             "alerts": {
