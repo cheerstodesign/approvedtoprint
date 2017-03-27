@@ -510,7 +510,7 @@ h6,
 }
 
 .navbar-dropdown .navbar-logo img {
-    height: auto;
+    height: auto !important;
     width: 100%;
     max-width: 500px;
 }
