@@ -508,3 +508,9 @@ h6,
   color: #cccccc;
   font-family: 'Raleway', sans-serif;
 }
+
+.navbar-dropdown .navbar-logo img {
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+}
