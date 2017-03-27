@@ -1,6 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
 
 
 
@@ -489,9 +490,16 @@ h6,
   color: #bcbcbc;
 }
 #features4-7 .iconbox {
-  background-color: #00569f;
-  border-color: #00569f;
+  background-color: #00afef;
+  border-color: #00afef;
 }
 #form1-5 .form-control-label {
-  color: #232323;
+  color: #ffffff;
+}
+#form1-5 .mbr-section-title {
+  color: #ffffff;
+}
+#form1-5 SMALL {
+  color: #cccccc;
+  font-family: 'Raleway', sans-serif;
 }

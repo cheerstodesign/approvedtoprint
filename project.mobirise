@@ -192,8 +192,8 @@
               "color": "#bcbcbc"
             },
             ".iconbox": {
-              "background-color": "#00569f",
-              "border-color": "#00569f"
+              "background-color": "#00afef",
+              "border-color": "#00afef"
             }
           },
           "_tags": [
@@ -202,7 +202,7 @@
           "_name": "features4",
           "_anchor": "features4-7",
           "_params": {
-            "iconsBgColor": "#00569f",
+            "iconsBgColor": "#00afef",
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
@@ -325,13 +325,13 @@
           "_name": "form1",
           "_anchor": "form1-5",
           "_params": {
-            "labelsColor": "#232323",
+            "labelsColor": "#ffffff",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "bgColor": "#00569f",
             "bgColorRadio": true,
             "overlay": false,
             "overlayOpacity": 0.5,
@@ -371,7 +371,15 @@
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
           "_styles": {
             ".form-control-label": {
-              "color": "#232323"
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            "SMALL": {
+              "color": "#cccccc",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           }
         }
