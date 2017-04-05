@@ -529,9 +529,9 @@ h6,
     display: block;
   }
 }
-.mbr-arrow-up-icon::before {
+/* .mbr-arrow-up-icon::before {
     left: 0 !important;
-}
+} */
 #success_page {
     color: #fac51c;
 }
