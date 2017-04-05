@@ -17,50 +17,7 @@
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-
-  <script src="assets/web/assets/jquery/jquery.min.js"></script>
   
-  <!-- AJAX Contact Form -->
-            <!--<script type="text/javascript" src="assets/js/jquery.jigowatt.js"></script>-->
-            <script type="text/javascript">
-                jQuery(document).ready(function(){
-
-                    $('#contactform').submit(function(){
-                
-                        var action = $(this).attr('action');
-                
-                        $("#message").slideUp(750,function() {
-                        $('#message').hide();
-                
-                        $('#submit')
-                            
-                            .attr('disabled','disabled');
-                
-                        $.post(action, {
-                            name: $('#name').val(),
-                            email: $('#email').val(),
-                            phone: $('#phone').val(),
-                            comments: $('#comments').val()
-                        },
-                            function(data){
-                                document.getElementById('message').innerHTML = data;
-                                $('#message').slideDown('slow');
-                                $('#contactform img.loader').fadeOut('slow',function(){$(this).remove()});
-                                $('#submit').removeAttr('disabled');
-                                if(data.match('success') != null) $('#contactform').slideUp('slow');
-                
-                            }
-                        );
-                
-                        });
-                
-                        return false;
-                
-                    });
-                
-                });
-            </script>
-        <!-- AJAX Contact Form -->  
   
 </head>
 <body>
@@ -313,61 +270,7 @@
                 <div class="col-xs-12 text-xs-center">
                     <h3 class="mbr-section-title display-2">CONTACT US</h3>
                     <small class="mbr-section-subtitle">Got a question? Need a quote? We can help!</small>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="mbr-section mbr-section-nopadding contact-form">
-        <div class="container">
-            <div class="row">
-                <!-- <div class="col-xs-12 col-lg-10 col-lg-offset-1" data-form-type="formoid"> -->
-                <div class="col-xs-12 col-lg-10 col-lg-offset-1">
-
-
-                    <!-- <div data-form-alert="true">
-                        <div hidden="" data-form-alert-success="true" class="alert alert-form alert-success text-xs-center">Thanks for filling out form!</div>
-                    </div> -->
-
-
-                    <!-- <form action="contact.php" method="post" name="contactform" id="contactform" data-form-title="CONTACT FORM"> -->
-                    <form action="http://cheerstodesign.com/client/atp/contact.php" method="post" name="contactform" id="contactform">
-
-                        <input type="hidden" value="ikInIPizGnRYCuyjah0aflvhYyvikxvxKHoAKrBwNFT6rqRQBVz6v0jK4vUCgPN9QVGVEUAHM8qKj9wvK6x9h0w/5YxGitZtWn62Z8bFbkTV/GHCYLTtWgd8txHjFTl4" data-form-email="true">
-
-                        <div class="row row-sm-offset">
-
-                            <div class="col-xs-12 col-md-4">
-                                <div class="form-group">
-                                    <label class="form-control-label" for="form1-5-name">Name<span class="form-asterisk">*</span></label>
-                                    <input type="text" class="form-control" name="name" required="" id="name">
-                                </div>
-                            </div>
-
-                            <div class="col-xs-12 col-md-4">
-                                <div class="form-group">
-                                    <label class="form-control-label" for="form1-5-email">Email<span class="form-asterisk">*</span></label>
-                                    <input type="email" class="form-control" name="email" required="" id="email">
-                                </div>
-                            </div>
-
-                            <div class="col-xs-12 col-md-4">
-                                <div class="form-group">
-                                    <label class="form-control-label" for="form1-5-phone">Phone</label>
-                                    <input type="tel" class="form-control" name="phone" id="phone">
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="form-group">
-                            <label class="form-control-label" for="form1-5-message">Message</label>
-                            <textarea class="form-control" name="comments" rows="7" id="comments"></textarea>
-                        </div>
-
-                        <div><button type="submit" class="btn btn-secondary">SEND</button></div>
-
-                    </form>
-                    <div id="message" class="alert alert-form alert-success text-xs-center"></div>
+                    <a href="mailto:info@approvedtoprint.com">info@approvedtoprint.com</a>
                 </div>
             </div>
         </div>
@@ -382,7 +285,7 @@
 </footer>
 
 
-  
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/smooth-scroll/smooth-scroll.js"></script>
