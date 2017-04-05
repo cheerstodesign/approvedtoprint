@@ -508,8 +508,30 @@ h6,
   color: #cccccc;
   font-family: 'Raleway', sans-serif;
 }
+/* Custom CSS */
 .navbar-dropdown .navbar-logo img {
     height: auto !important;
     width: 100%;
     max-width: 500px;
+}
+.mbr-section.bindery {
+  margin-bottom: 60px;
+}
+.scroll-down-arrow {
+  padding-top: 30px;
+  display: none;
+}
+@media (max-width: 400px) {
+  .mbr-section.mbr-parallax-background {
+    padding-bottom: 60px !important;
+  }
+  .scroll-down-arrow {
+    display: block;
+  }
+}
+.mbr-arrow-up-icon::before {
+    left: 0 !important;
+}
+#success_page {
+    color: #fac51c;
 }
