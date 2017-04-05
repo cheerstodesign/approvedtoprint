@@ -1201,8 +1201,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   margin-left: 0 !important;
   margin-right: 0 !important; }
 .mbr-cards-col {
-  padding-left: 0;
-  padding-right: 0;
+  /*padding-left: 0;
+  padding-right: 0;*/
   padding-top: 120px;
   padding-bottom: 120px; }
   @media (max-width: 767px) {
@@ -2158,7 +2158,7 @@ html.is-builder .article .lead:not([data-app-remove-it]) + div .btn {
   margin: auto;
   text-align: center; }
   .image-size .mbr-figure {
-    padding-top: 3px; }
+    /*padding-top: 3px;*/ }
 
 @media (max-width: 768px) {
   .image-size {
