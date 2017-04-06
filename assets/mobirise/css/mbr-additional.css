@@ -529,9 +529,42 @@ h6,
     display: block;
   }
 }
-/* .mbr-arrow-up-icon::before {
+/*.mbr-arrow-up-icon::before {
     left: 0 !important;
-} */
+}*/
 #success_page {
     color: #fac51c;
+}
+#features7-4 .card-block,
+#features7-4 .card-text {
+  text-align: left;
+}
+.mbr-cards-col.bindery {
+  background: url('../../images/bindery-1400x933-overlay.jpg');
+  background-size: cover;
+  color: #fff;
+}
+@media (max-width: 800px) {
+  .mbr-cards-col.bindery .container.bindery .mbr-section-title {
+    position: relative;
+    top:100px;
+  }
+  #features7-4 .mbr-cards-col {
+    padding-top: 0px !important;
+    padding-bottom: 40px !important;
+  }
+}
+.mbr-cards-col.bindery .container.bindery .mbr-section-title {
+  position: relative;
+  top:40px;
+}
+#features7-4 .mbr-cards-col {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+#content5-9 .card {
+  background-color: transparent;
+  border: none;
+  border-radius: none;
+  margin-bottom: 0;
 }
