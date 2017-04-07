@@ -554,9 +554,16 @@ h6,
     padding-bottom: 40px !important;
   }
 }
+@media (min-width: 992px) {
+  .mbr-cards-col.bindery .container.bindery .mbr-section-title {
+  position: relative;
+    top: 90px !important;
+  }
+}
 .mbr-cards-col.bindery .container.bindery .mbr-section-title {
   position: relative;
-  top:40px;
+  /*top:40px;*/
+  top: 40px;
 }
 #features7-4 .mbr-cards-col {
     padding-top: 40px !important;
@@ -567,4 +574,8 @@ h6,
   border: none;
   border-radius: none;
   margin-bottom: 0;
+}
+.mbr-cards .striped.prepress .mbr-cards-col:nth-child(2n+1) {
+    background: transparent;
+    color: #000;
 }
