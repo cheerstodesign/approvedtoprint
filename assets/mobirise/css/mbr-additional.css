@@ -1966,3 +1966,18 @@ body {
   padding-bottom: 30px;
   background-color: #2e2e2e;
 }
+/*Logo*/
+@media (min-width: 992px) {
+  .navbar-logo img {
+    max-width: 400px;
+    height: auto !important;
+    width: 100%;
+}
+}
+@media (max-width: 991px) {
+  .navbar-logo img {
+    max-width: 200px;
+    height: auto !important;
+    width: 100%;
+}
+}
